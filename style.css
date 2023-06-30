@@ -96,12 +96,6 @@ body {
     border: 0;
 }
 
-@media (max-width:800px) {
-    .dialog-box{
-        width: 500px;
-        top: 50px;
-    }
-}
 
 .dialog-box p {
     padding: 1em;
