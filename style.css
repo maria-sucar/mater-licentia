@@ -88,12 +88,19 @@ body {
 /*modal styles*/
 
 .dialog-box {
-    width: 400px;
+    width: 700px;
     margin: 0 auto;
     position: inherit;
     top: 25%;
     padding: 0;
     border: 0;
+}
+
+@media (max-width:800px) {
+    .dialog-box{
+        width: 500px;
+        top: 50px;
+    }
 }
 
 .dialog-box p {
