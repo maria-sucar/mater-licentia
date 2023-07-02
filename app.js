@@ -25,7 +25,7 @@ const penitenciaContainer = document.querySelector(".penitencia-container");
 const penitencia = document.querySelector(".penitencia");
 
 let penitenciasLista = [
-  'Beba 2 litros de água.',
+  'Beba 2 litros de água durante o dia.',
   'Essa noite, tenha 8 horas de sono.',
   'Faça uma boa refeição.',
   'Tome um banho relaxante.',
