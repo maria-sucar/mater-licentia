@@ -20,6 +20,24 @@ body {
     background-color: #ececec;
 }
 
+.ptbr {
+    display: block;
+}
+
+.eng {
+    display: none;
+}
+
+.lang-toggle-container {
+    padding:  0 1em;
+}
+
+.lang-toggle-container span {
+    background-color:#eeeeee;
+    font-size: 1.1em;
+    
+}
+
 .main-container {
     height: 100vh;
     display: flex;
