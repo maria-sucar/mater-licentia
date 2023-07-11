@@ -23,21 +23,22 @@ const sendMessageButton = document.querySelector(".send-message-btn");
 const messageContainer = document.querySelector(".message-container");
 const penitenciaContainer = document.querySelector(".penitencia-container");
 const penitencia = document.querySelector(".penitencia");
+const iconContainer = document.querySelector(".icon-container");
 
 let penitenciasLista = [
-  'Beba 2 litros de água durante o dia.',
-  'Essa noite, tenha 8 horas de sono.',
+  'Se hidrate.',
+  'Tenha uma boa noite de sono.',
   'Faça uma boa refeição.',
   'Tome um banho relaxante.',
-  'Pegue 10 minutos de sol.'
+  'Tome um banho de sol.'
 ]
 
 let penitenciasListaEng = [
-  'Drink 2 liters of water.',
-  'Get 8 hours of sleep tonight.',
+  'Drink water.',
+  "Have a good night's sleep.",
   'Have a good meal.',
   'Take a relaxing shower.',
-  'Get 10 minutes of sunlight.'
+  'Take a sunbathe.'
   ]
 
 function randomPenitencia() {
@@ -52,6 +53,7 @@ function randomPenitencia() {
 sendMessageButton.addEventListener('click', () => {
   messageContainer.style.display = 'none';
   penitenciaContainer.style.display = 'flex';
+  iconContainer.style.display = 'none';
 
   let penitenciaEscolhida = randomPenitencia();
   penitencia.textContent = penitenciaEscolhida;
